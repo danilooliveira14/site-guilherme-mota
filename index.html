@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Guilherme Mota Design Gráfico — Serviços</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <meta name="description" content="Serviços de design gráfico por Guilherme Mota." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Guilherme Mota Design Gráfico</h1>
+      <nav class="main-nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <h2>Design Profissional para Impulsionar Seu Negócio</h2>
+        <p>
+          Transformo ideias em designs marcantes. Sou especialista em criação de 
+          logotipos profissionais, artes para camisetas de eventos, posts criativos 
+          para Instagram e material visual para divulgação de festas.
+          Meu diferencial é unir identidade, criatividade e estratégia, entregando 
+          artes que comunicam, se destacam e conectam seu público à sua marca.
+        </p>
+        <a class="btn" href="#contato">Peça um orçamento</a>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="container section">
+      <h3>Sobre</h3>
+      <p>
+        Sou Guilherme Mota, e há 2 anos transformo sonhos em realidade por meio da arte gráfica.
+        Cada projeto que crio carrega propósito, criatividade e identidade — porque meu trabalho
+        vai além de desenhar: é dar vida às ideias e criar conexões visuais que marcam.
+      </p>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="container section">
+      <h3>Serviços</h3>
+      <ul class="cards">
+        <li class="card">
+          <h4>Logotipos Profissionais</h4>
+          <p>Criação de identidades visuais fortes, únicas e memoráveis, pensadas para transmitir a essência da sua marca.</p>
+        </li>
+        <li class="card">
+          <h4>Artes para Camisetas de Eventos</h4>
+          <p>Designs exclusivos e criativos, feitos sob medida para transformar seu evento em uma experiência visual única.</p>
+        </li>
+        <li class="card">
+          <h4>Material Visual para Divulgação de Festas</h4>
+          <p>Criação de artes impactantes e atrativas, desenvolvidas para chamar atenção, destacar seu evento e garantir uma comunicação visual irresistível.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="container section">
+      <h3>Galeria de Artes</h3>
+      <div class="galeria-grid">
+        <img src="img/arte1.jpeg" alt="Arte 1">
+        <img src="img/arte2.jpeg" alt="Arte 2">
+        <img src="img/arte3.jpeg" alt="Arte 3">
+        <img src="img/arte4.jpeg" alt="Arte 4">
+        <img src="img/arte5.jpeg" alt="Arte 5">
+        <img src="img/arte6.jpeg" alt="Arte 6">
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="container section">
+      <h3>Contato</h3>
+      <p>
+        Telefone: (79) 98845-3219<br>
+        WhatsApp: (79) 98845-3219<br>
+        Email: guilhermemota@gmail.com
+      </p>
+
+      <form class="contact-form" action="#" method="post" onsubmit="alert('Obrigado! Entraremos em contato.'); return false;">
+        <label>
+          Nome
+          <input type="text" name="nome" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Mensagem
+          <textarea name="mensagem" rows="4" required></textarea>
+        </label>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="ano"></span> Guilherme Mota Santos — Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <script>
+    // coloca ano atual no rodapé
+    document.getElementById('ano').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+>
